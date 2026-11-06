@@ -53,7 +53,7 @@ Verificação no Chrome: entrada, restauração após reload, saída sem restaur
 
 ## Publicar no Netlify
 
-Configuração pronta: comando `npm run build`, diretório `dist`. É possível conectar o repositório no Netlify ou enviar o conteúdo de dist. Publicação autorizada em 06/11/2026. Repositório: https://github.com/EVI-DEV1/dio-aurora-account-react . Site público: https://aurora-account-evi.netlify.app/ . Build enviado diretamente ao Netlify e publicado em 06/11/2026. Resposta HTTP 200 e login demonstrativo conferidos na versão pública. Entrega DIO preparada, aguardando confirmação do aceite dos termos.
+Configuração pronta: comando `npm run build`, diretório `dist`. É possível conectar o repositório no Netlify ou enviar o conteúdo de dist. Publicação autorizada em 06/11/2026. Repositório: https://github.com/EVI-DEV1/dio-aurora-account-react . Site público: https://aurora-account-evi.netlify.app/ . Build enviado diretamente ao Netlify e publicado em 06/11/2026. Resposta HTTP 200 e login demonstrativo conferidos na versão pública. Entrega confirmada na DIO em 06/11/2026, com o estado PROJETO ENTREGUE após aceite autorizado dos termos.
 
 ## Escopo e créditos
 
