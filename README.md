@@ -53,11 +53,10 @@ Verificação no Chrome: entrada, restauração após reload, saída sem restaur
 
 ## Publicar no Netlify
 
-Configuração pronta: comando `npm run build`, diretório `dist`. É possível conectar o repositório no Netlify ou enviar o conteúdo de dist. Repositório público, deploy e entrega DIO ainda pendentes de autorização específica; não há URL de produção nesta preparação.
+Configuração pronta: comando `npm run build`, diretório `dist`. É possível conectar o repositório no Netlify ou enviar o conteúdo de dist. Publicação autorizada em 06/11/2026. Repositório: https://github.com/EVI-DEV1/dio-aurora-account-react . Deploy Netlify e entrega DIO em preparação; ainda sem URL de produção confirmada.
 
 ## Escopo e créditos
 
 É uma demonstração de interface para portfólio, sem backend de autenticação. O perfil salvo é editável no navegador; os dados locais não representam uma sessão segura. Um produto financeiro real exige servidor, autorização de dados e infraestrutura apropriada. Não use informações ou credenciais reais.
 
 Referência educacional: [DIO — desafio03-ts](https://github.com/digitalinnovationone/desafio03-ts), por [Nathally Souza](https://github.com/nathyts). A identidade e a tela de entrada evoluem o projeto Aurora Homepage React do mesmo portfólio. Implementação independente em React, TypeScript, Vite e Chakra UI; ícones Lucide; fontes DM Sans e Manrope (Google Fonts, com alternativas locais de sistema). Os créditos do curso e das bibliotecas são preservados.
-
