@@ -23,7 +23,7 @@ O perfil exibe Marina Costa, e-mail e informações de uma conta fictícia. É p
 | Acesso restaurado sem exibir login | Inicialização do AuthProvider |
 | Perfil com nome e e-mail, condicionado ao acesso | src/components/Account.tsx e App.tsx |
 | Saída e tratamento de dados inválidos | Contexto, serviço de sessão e testes |
-| Deploy Netlify | netlify.toml; publicação pendente de autorização |
+| Deploy Netlify | netlify.toml; site público no Netlify |
 
 A navegação é uma composição condicional de telas, com fragmentos `#acesso` e `#conta`. Abrir o fragmento da conta não contorna a condição de login. Não há React Router nesta entrega; o enunciado não exige uma biblioteca específica de roteamento.
 
@@ -53,10 +53,11 @@ Verificação no Chrome: entrada, restauração após reload, saída sem restaur
 
 ## Publicar no Netlify
 
-Configuração pronta: comando `npm run build`, diretório `dist`. É possível conectar o repositório no Netlify ou enviar o conteúdo de dist. Publicação autorizada em 06/11/2026. Repositório: https://github.com/EVI-DEV1/dio-aurora-account-react . Deploy Netlify e entrega DIO em preparação; ainda sem URL de produção confirmada.
+Configuração pronta: comando `npm run build`, diretório `dist`. É possível conectar o repositório no Netlify ou enviar o conteúdo de dist. Publicação autorizada em 06/11/2026. Repositório: https://github.com/EVI-DEV1/dio-aurora-account-react . Site público: https://aurora-account-evi.netlify.app/ . Build enviado diretamente ao Netlify e publicado em 06/11/2026. Resposta HTTP 200 e login demonstrativo conferidos na versão pública. Entrega DIO preparada, aguardando confirmação do aceite dos termos.
 
 ## Escopo e créditos
 
 É uma demonstração de interface para portfólio, sem backend de autenticação. O perfil salvo é editável no navegador; os dados locais não representam uma sessão segura. Um produto financeiro real exige servidor, autorização de dados e infraestrutura apropriada. Não use informações ou credenciais reais.
 
 Referência educacional: [DIO — desafio03-ts](https://github.com/digitalinnovationone/desafio03-ts), por [Nathally Souza](https://github.com/nathyts). A identidade e a tela de entrada evoluem o projeto Aurora Homepage React do mesmo portfólio. Implementação independente em React, TypeScript, Vite e Chakra UI; ícones Lucide; fontes DM Sans e Manrope (Google Fonts, com alternativas locais de sistema). Os créditos do curso e das bibliotecas são preservados.
+
